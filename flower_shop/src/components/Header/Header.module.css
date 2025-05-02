@@ -1,0 +1,14 @@
+.header {
+   
+    background: var(--color-grey-97);
+    height: 40px;
+
+    
+    width: 100%;
+    margin: 0 auto;
+}
+
+.headerContainer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
