@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import styles from './CabinetButton.module.css';
 
 export default function CabinetButton() {
   return (
-    <div>CabinetButton</div>
+    <>
+        <button className= {styles.but}><img src="/control/cabinet.svg" alt="my-cabinet" />Мій кабінет</button>
+    </>
   )
 }
