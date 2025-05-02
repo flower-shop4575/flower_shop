@@ -15,12 +15,12 @@ export default function Main() {
             </li>
             <li className= {styles.socailListItem}>
             <button className= {styles.buttonItem}>
-            <img src="social/insta.svg" alt="instagram" className= {styles.buttonIcon} />
+            <img src="social/vk.svg" alt="instagram" className= {styles.buttonIcon} />
             </button>
             </li>
             <li className= {styles.socailListItem}>
             <button className= {styles.buttonItem}>
-            <img src="social/insta.svg" alt="instagram" className= {styles.buttonIcon} />
+            <img src="social/facebook.svg" alt="instagram" className= {styles.buttonIcon} />
             </button>
             </li>
         </ul>
