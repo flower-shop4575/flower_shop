@@ -7,10 +7,14 @@ import ControlPanel from './ControlPanel/ControlPanel.jsx';
 export default function Header() {
   return (
     <header className={styles.header}>
-      <div className={styles.headerContainer}>
+    <div className={styles.headerContainer}>
+   
+      
     <Nav></Nav>
-    <ControlPanel></ControlPanel>
     </div>
+    <ControlPanel></ControlPanel>
+   
     </header>
+    
   )
 }
