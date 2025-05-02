@@ -14,10 +14,14 @@ export default function Main() {
                 </button>
             </li>
             <li className= {styles.socailListItem}>
-            <button className= {styles.buttonItem}></button>
+            <button className= {styles.buttonItem}>
+            <img src="social/insta.svg" alt="instagram" className= {styles.buttonIcon} />
+            </button>
             </li>
             <li className= {styles.socailListItem}>
-            <button className= {styles.buttonItem}></button>
+            <button className= {styles.buttonItem}>
+            <img src="social/insta.svg" alt="instagram" className= {styles.buttonIcon} />
+            </button>
             </li>
         </ul>
     </section>
