@@ -1,4 +1,43 @@
-.korzyna{
+.korzyna {
     display: flex;
     align-items: center;
+    gap: 8px;
+}
+
+.cartButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.cartIcon {
+    width: 36px;
+    height: 36px;
+}
+
+.itemCount {
+    position: absolute;
+    z-index: 2;
+    top: 2px;
+    left: 19px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(91, 9, 61, 0.78);
+    color: #fcfcfd;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.totalPrice {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 107%;
+    color: var(--color-grey-24);
 }
