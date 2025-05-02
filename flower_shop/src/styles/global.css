@@ -39,4 +39,36 @@ img {
 :root {
     --font-family: "Roboto", sans-serif;
     --second-family: "Inter", sans-serif;
+    --color-white-solid: #fff;
+	--color-grey-95: #f1f1f2;
+	--color-grey-97: #f7f7f7;
+	--color-grey-24: #3c3c3c;
+	--color-rose-20-780: rgba(91, 9, 61, 0.78);
+	--color-grey-99: #fcfcfd;
+	--color-grey-65: #a3a5a8;
+	--color-grey-69: #adb0b2;
+	--color-grey-23-600: rgba(53, 58, 62, 0.6);
+	--color-white--500: rgba(255, 255, 255, 0.5);
+	--color-azure-63: #7c93c7;
+	--color-grey-60: #989899;
+	--color-white--0-20: rgba(255, 255, 255, 0);
+	--color-rose-50: #fe008c;
+	--color-rose-44: #a33d5f;
+	--color-rose-63: #e7598a;
+	--color-grey-85: #d8d8d9;
+	--color-grey-59: #9d9792;
+	--color-grey-35: #595959;
+	--color-grey-46: #757575;
+	--color-grey-92: #e8eaed;
+	--color-grey-25: #3c4043;
+	--color-black-solid: #000;
+	--color-azure-83: #aac4ff;
+	--color-cyan-65: #4cfedc;
+	--color-grey-27-500: rgba(69, 69, 69, 0.5);
+	--color-chartreuse-green-53: #8bc34a;
+	--color-red-63: #ee7752;
+	--color-rose-57: #e73c7e;
+	--color-azure-49: #23a6d5;
+	--color-cyan-49: #23d5ab;
+	--color-white--200: rgba(255, 255, 255, 0.2);
   }
