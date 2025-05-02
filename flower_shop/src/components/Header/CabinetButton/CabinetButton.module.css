@@ -6,6 +6,7 @@
     
     display: flex;
     align-items: center;
+    
     gap: 7px;
 }
 
@@ -16,4 +17,6 @@
     line-height: 107%;
     text-align: center;
     color: var(--color-grey-24);
-}
+    position: relative;
+    top: 1px; 
+    }
