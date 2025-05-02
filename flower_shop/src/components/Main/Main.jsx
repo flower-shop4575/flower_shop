@@ -24,6 +24,8 @@ export default function Main() {
             </button>
             </li>
         </ul>
+        <p className= {styles.paragraph}>Доставка квітів</p>
+        <hr />
     </section>
   )
 }
