@@ -3,4 +3,27 @@
     gap: 23px;
     }
 
-  
+    .listItem {
+        display: flex;
+        align-items: center; 
+    }
+    
+    
+
+  .link {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 161%;
+    color: var(--color-grey-24);
+
+    display: flex;
+    align-items: center; 
+    gap: 11px; 
+
+    transition: all 0.3s ease-in-out;
+  }
+
+    .link:hover {
+        text-decoration: underline;
+    }
