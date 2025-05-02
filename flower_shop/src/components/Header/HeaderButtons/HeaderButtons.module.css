@@ -1,0 +1,15 @@
+
+
+.btnList {
+    display: flex;
+}
+
+
+   .btn{
+    display: block;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: 1px solid var(--color-grey-65);
+    padding: 6px 8px;
+   }

@@ -52,9 +52,7 @@
     height: 19px;
 }
 
-.buttonItem:hover .buttonIcon {
-    fill: black; /* Новий колір іконки */
-}
+
 
 .paragraph{
     font-family: var(--font-family);
@@ -117,9 +115,12 @@ span {
     letter-spacing: 0.05em;
     text-align: center;
     color: var(--color-grey-99);
+
+    
 }
 
 .geoButton{
+    width: fit-content;
     background: var(--color-azure-63);
     border-radius: 18px;
     padding: 0 43.5px;
