@@ -8,3 +8,12 @@
     align-items: center;
     gap: 7px;
 }
+
+.span {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 107%;
+    text-align: center;
+    color: var(--color-grey-24);
+}
