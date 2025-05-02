@@ -12,5 +12,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+.logo{
     margin-top: 10px;
 }
+
+.socialList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+    gap: 37px;
+}
+
+.buttonItem{
+    border: 1px solid var(--color-white--500);
+    border-radius: 18px;
+    padding: 9px 10px 9px 10px;
+    width: 36px;
+    height: 36px;
+}
+
