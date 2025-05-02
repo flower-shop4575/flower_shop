@@ -26,4 +26,5 @@
 
     .link:hover {
         text-decoration: underline;
+        cursor: pointer;
     }
