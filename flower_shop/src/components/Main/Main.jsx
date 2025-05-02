@@ -25,7 +25,16 @@ export default function Main() {
             </li>
         </ul>
         <p className= {styles.paragraph}>Доставка квітів</p>
+        <div className= {styles.geo}>
         <hr />
+        <div className={styles.geoContainer}>
+        <span className= {styles.geoSpan}>в Чернігові</span>
+        </div>
+        <hr />
+        </div>
+        <div className={styles.buttonContainer}>
+        <button className={styles.geoButton}><span>Замовити квіти</span></button>
+        </div>
     </section>
   )
 }
