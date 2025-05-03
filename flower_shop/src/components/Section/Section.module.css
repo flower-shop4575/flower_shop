@@ -1,41 +1,74 @@
 .section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 400px;
-    margin: auto;
-    gap: 5px;
+    width: 100%;
+    background-image: 
+      url('https://chernigov.florella.com.ua/catalog/view/theme/flora/stylesheet/img/category-bg.png'),
+      url('https://chernigov.florella.com.ua/catalog/view/theme/flora/stylesheet/img/category-bottom-bg.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top center, bottom center;
+    background-size: cover, contain;
+    
+    /* padding: 40px 0; */
   }
   
-  .items__1, .items__2, .items__3 {
-    height: 150px;
+  .content {
+    max-width: 700px;
+    margin: -200px auto 0 auto; /* верхній margin негативний */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+  
+  
+  .items__1, .items__2{
+    font-family: var(--font-family);
+    width: 375px;
+    letter-spacing: 0.06em;
+    height: 326px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
+    color: var(--color-grey-99);
+    font-weight: 500;
+    font-size: 48px;
     text-align: center;
-    text-shadow: 1px 1px 3px black;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+  }
+  
+  .items__3{
+    font-family: var(--font-family);
+    width: 760px;
+    height: 326px;
+    letter-spacing: 0.06em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-grey-99);
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
     background-size: cover;
     background-position: center;
     position: relative;
   }
-  
+
   .items__1:nth-child(1) {
-    background-image: url('https://example.com/bukety.jpg');
+    background-image: url('https://florella.com.ua/image/catalog/category1.png');
   }
   .items__1:nth-child(2) {
-    background-image: url('https://example.com/troyandy.jpg');
+    background-image: url('https://florella.com.ua/image/catalog/category2.png');
   }
   .items__2:nth-child(3) {
-    background-image: url('https://example.com/podaryunky.jpg');
+    background-image: url('https://florella.com.ua/image/catalog/category3.png');
   }
   .items__2:nth-child(4) {
-    background-image: url('https://example.com/roslyny.jpg');
+    background-image: url('https://florella.com.ua/image/catalog/category4.png');
   }
   .items__3 {
     grid-column: span 2;
-    background-image: url('https://example.com/boksy.jpg');
+    background-image: url('https://florella.com.ua/image/catalog/box-flowers.jpg');
   }
   
   .items__1::after,
@@ -44,6 +77,5 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.3);
   }
   
