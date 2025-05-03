@@ -1,0 +1,117 @@
+body{
+    background:  var(--color-grey-95);
+}
+
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnsContainer {
+    margin-top: 155px;
+    display: flex;
+    gap: 22px;
+    margin-bottom: 23px;
+}
+
+.btn1{
+    border: 1px solid var(--color-grey-60);
+    }
+    .btn2{
+        border: 1px solid transparent;
+    }
+
+    .btn1, .btn2{
+     padding: 11px 15px;
+     transition: all 0.3s ease-in-out;
+    }
+    
+.btn1:focus, .btn2:focus{
+    border: 1px solid var(--color-grey-60);
+    outline: 1px solid var(--color-grey-60);
+}
+
+p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--color-grey-24);
+}
+
+.listContainer{
+    margin-top: 52px;
+    margin-bottom: 156px;
+}
+
+.productList{
+    display: flex;
+    gap: 30px;
+}
+.productItem{
+   
+    background: var(--color-grey-99);
+}
+.productImage{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.productParagraph{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--color-grey-24);
+    }
+.productInfo{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin: 0 12px 11px 15px;
+    }
+
+.productSpan{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0.03em;
+    color: var(--color-rose-50);
+}
+
+.productBtn{
+    border-radius: 40px;
+    padding: 9px 27px;
+    background: var(--color-azure-63);
+    border: 1px solid var(--color-azure-63);
+    transition: all 0.3s ease-in-out;
+   }
+
+   .productBtn:hover {
+    background: transparent;
+   }
+
+   .productBtn:hover .productSpan1 {
+    color: var(--color-grey-23-600);
+   }
+
+
+   .productSpan1{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0.03em;
+    color: var(--color-grey-99);
+   }
+   
