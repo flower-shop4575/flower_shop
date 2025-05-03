@@ -1,0 +1,49 @@
+.section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 400px;
+    margin: auto;
+    gap: 5px;
+  }
+  
+  .items__1, .items__2, .items__3 {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .items__1:nth-child(1) {
+    background-image: url('https://example.com/bukety.jpg');
+  }
+  .items__1:nth-child(2) {
+    background-image: url('https://example.com/troyandy.jpg');
+  }
+  .items__2:nth-child(3) {
+    background-image: url('https://example.com/podaryunky.jpg');
+  }
+  .items__2:nth-child(4) {
+    background-image: url('https://example.com/roslyny.jpg');
+  }
+  .items__3 {
+    grid-column: span 2;
+    background-image: url('https://example.com/boksy.jpg');
+  }
+  
+  .items__1::after,
+  .items__2::after,
+  .items__3::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
