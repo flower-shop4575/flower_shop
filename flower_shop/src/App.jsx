@@ -5,6 +5,7 @@ import Main from './components/Main/Main.jsx';
 import ProductSection from './components/ProductSection/ProductSection.jsx';
 import AboutUs from './components/AboutUs/AboutUs.jsx';
 import FeedBackSection1 from './components/FeedBackSection1/FeedBackSection1.jsx';
+import FeedBackSectionContinue from './components/FeedBackSectionContinue/FeedBackSectionContinue.jsx';
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
       <ProductSection></ProductSection>
       <AboutUs></AboutUs>
       <FeedBackSection1></FeedBackSection1>
+      <FeedBackSectionContinue></FeedBackSectionContinue>
     </>
   )
 }

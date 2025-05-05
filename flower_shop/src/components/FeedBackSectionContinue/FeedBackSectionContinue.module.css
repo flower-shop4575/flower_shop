@@ -1,0 +1,110 @@
+.feedBackContainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 117.5px;
+    margin-top: 70px;
+}
+
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 550px;
+    border-radius: 50%;
+    width: 100%;
+    aspect-ratio: 1/1; 
+    background: var(--color-grey-92);
+}
+
+.title2 {
+    margin-top: 5px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--color-grey-25);
+
+    max-width: 420px;
+    width: 100%;
+}
+.subtitle2 {
+    margin-top: 20px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--color-grey-25);
+
+    max-width: 420px;
+    width: 100%;
+}
+
+.leftSide img {
+    width: 50px; 
+    height: auto; 
+}
+
+.rightImg{
+    margin-bottom: 72px;
+}
+
+.rightBtn{
+    margin-top: 10px;
+    border-radius: 40px;
+    padding: 11px 2px;
+    background: var(--color-rose-44);
+    max-width: 206px;
+    width: 100%;
+}
+
+.rightSpn {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: var(--color-grey-99);
+}
+.rightItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rightItem1{
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.rightSubtitle{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--color-grey-24);
+}
+
+.rightSubtitle1 {
+    margin-top: 26.5px;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--color-grey-24);
+
+    max-width: 200px;
+    width: 100%;
+}
